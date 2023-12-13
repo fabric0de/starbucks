@@ -67,6 +67,15 @@ a {
   color: #333;
   background-color: #fff;
 }
+.btn.btn--christmas {
+  color: #fff;
+  border-color: #fff;
+}
+.btn.btn--christmas:hover {
+  color: #c81d30;
+  background-color: #fff;
+  border-color: #fff;
+}
 .back-to-position {
   opacity: 0;
   transition: 1s;

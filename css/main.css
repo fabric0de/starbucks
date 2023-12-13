@@ -1,7 +1,10 @@
 /* VISUAL */
 .visual {
+  height: 32vw;
   margin-top: 120px;
-  background-image: url("../images/visual_bg.jpg");
+  background-image: url("../images2023/2023_christmas2_top_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 .visual .inner {
@@ -15,32 +18,38 @@
 .visual .title .btn {
   position: absolute;
   top: 259px;
-  left: 173px;
+  left: 110px;
 }
 .visual .cup1.image {
   position: absolute;
-  bottom: 0;
-  right: -47px;
+  bottom: 220px;
+  left: 400px;
 }
-.visual .cup1.text {
-  position: absolute;
-  top: 38px;
-  right: 171px;
-}
+
 .visual .cup2.image {
   position: absolute;
-  bottom: 0;
+  bottom: 300px;
+  left: 450px;
+}
+.visual .cup3.image {
+  position: absolute;
+  bottom: 220px;
+  left: 700px;
+}
+.visual .cup4.image {
+  position: absolute;
+  bottom: 300px;
   right: 162px;
 }
-.visual .cup2.text {
+.visual .cup5.image {
   position: absolute;
-  top: 321px;
-  right: 416px;
+  bottom: 220px;
+  right: 162px;
 }
-.visual .spoon {
+.visual .cup6.image {
   position: absolute;
-  bottom: 0;
-  left: 275px;
+  bottom: 300px;
+  right: 0px;
 }
 .visual .fade-in {
   opacity: 0;
